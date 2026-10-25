@@ -1,5 +1,5 @@
 import streamlit as st
-theme.dark
+Theme.dark
 st.chat_input("¿Qué medicamento desea utilizar?")
 st.write("**Consulte a su medico*")
 st.sidebar.text("Brissa Aracely Carrasco Iglesias 395007")
