@@ -6,4 +6,4 @@ st.sidebar.text("Isadora Armendariz")
 st.sidebar.text("Leonardo Eusebio Martinez")
 st.sidebar.text("Audric Lorenzo Gómez Carrera 394911")
 
-st.chatinput("¿Qué medicamento desea utilizar?")
+st.chat_input("¿Qué medicamento desea utilizar?")
