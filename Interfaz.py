@@ -1,5 +1,5 @@
 import streamlit as st
-
+borderColor="Black"
 st.chat_input("¿Qué medicamento desea utilizar?")
 st.write("Consulte a su medico",
         textColor="gray")
