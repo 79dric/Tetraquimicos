@@ -1,7 +1,8 @@
 import streamlit as st
 
 st.chat_input("¿Qué medicamento desea utilizar?")
-st.write("*Consulte a su medico*",grayTextColor)
+st.write("*Consulte a su medico*"
+        TextColor="Gray")
 st.sidebar.text("Brissa Aracely Carrasco Iglesias 395007")
 st.sidebar.text("Alejandra G. Rivera Chávez 358006")
 st.sidebar.text("Isadora Armendariz")
