@@ -1,6 +1,6 @@
 import streamlit as st
 input_container = st.container()
-with input_container:
+if with input_container:
     user_input =st.chat_input("¿Qué medicamento desea utilizar?")
 st.write("**Consulte a su medico*")
 st.sidebar.button("Inicio",use_container_width=True)
