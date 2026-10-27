@@ -14,3 +14,4 @@ opcion_menu = st.radio(
         label="Menu",
         options=["🏠 Inicio", "💬 Sala de Chat", "⚙️ Configuración"],
         label_visibility="collapsed"
+)
