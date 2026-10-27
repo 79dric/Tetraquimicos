@@ -4,7 +4,7 @@ with input_container:
     user_input =st.chat_input("¿Qué medicamento desea utilizar?")
 st.write("**Consulte a su medico*")
 st.sidebar.button("Inicio",use_container_width=True)
-st.sidebar.button("Receta")
+st.sidebar.button("Receta",use_container_width=True)
 st.sidebar.text("Brissa Aracely Carrasco Iglesias 395007")
 st.sidebar.text("Alejandra G. Rivera Chávez 358006")
 st.sidebar.text("Isadora Armendariz")
