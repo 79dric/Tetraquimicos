@@ -1,12 +1,32 @@
 import streamlit as st
-input_container = st.container()
-with input_container:
-    user_input =st.chat_input("¿Qué medicamento desea utilizar?")
-st.write("**Consulte a su medico*")
-st.sidebar.button("Inicio",use_container_width=True)
-st.sidebar.button("Receta",use_container_width=True)
-st.sidebar.text("Brissa Aracely Carrasco Iglesias 395007")
-st.sidebar.text("Alejandra G. Rivera Chávez 358006")
-st.sidebar.text("Isadora Armendariz")
-st.sidebar.text("Leonardo Eusebio Martinez")
-st.sidebar.text("Audric Lorenzo Gómez Carrera 394911")
+from database import crear_tabla
+
+st.set_page_config(
+    page_title="Catálogo médico",
+    page_icon="📚",
+    layout="wide"
+)
+
+crear_tabla()
+
+st.title("Catálogo médico")
+
+st.write(
+    "Plataforma académica de consulta "
+    "de información sanitaria."
+)
+
+busqueda = st.text_input(
+    "Buscar en el catálogo"
+)
+
+categoria = st.selectbox(
+    "Seleccionar categoría",
+    ["Todas", "Información general", "Prevención", "Salud pública"]
+)
+
+if busqueda:
+    st.write("Búsqueda:", busqueda)
+
+if categoria != "Todas":
+    st.write("Categoría seleccionada:", categoria)
