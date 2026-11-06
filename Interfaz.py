@@ -9,6 +9,18 @@ st.set_page_config(
 
 crear_tabla()
 
+with st.sidebar.container(border=True):
+    st.markdown("### **Universidad Autónoma de Chihuahua**")
+    st.markdown("**Facultad de Ciencias Químicas**")
+    st.write("**Integrantes:**")
+    st.markdown(
+        """
+        * Brissa Carrasco
+        * Audric Gomez
+        * Leonardo Martinez
+        * Isadora Armendariz
+        """)
+        
 st.title("Catálogo médico")
 
 st.write(
