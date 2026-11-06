@@ -30,3 +30,14 @@ if busqueda:
 
 if categoria != "Todas":
     st.write("Categoría seleccionada:", categoria)
+with st.sidebar.container(border=True):
+    st.markdown("### **Universidad Autonoma de Chihuahua**")
+    st.markdown("**Facultad de Ciencias Químicas**")
+    st.write("**Integrantes:**")
+    st.markdown("""
+    * Brissa Carrasco
+    * Audric Gomez
+    * Leonardo Martinez
+    * Isadora Armendariz
+    """)
+    
