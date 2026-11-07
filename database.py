@@ -7,7 +7,7 @@ def conectar():
 
 def crear_tabla():
     conexion = conectar()
-    cursir = conexion.cursor()
+    cursor = conexion.cursor()
 
     conexion.execute("""
         CREATE TABLE IF NOT EXISTS medicamentos (
@@ -24,9 +24,9 @@ def crear_tabla():
     CREATE TABLE IF NOT EXISTS interacciones (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     id_farmaco1 INTEGER,
-    id_farmaco INTEGER,
-    nivel_riego TEXT, -- 'Alto', 'Moderado', 'Leve'
-    mecanusmo_implicacion TEXT,
+    id_farmaco2 INTEGER,
+    nivel_riego TEXT,
+    mecanismo_implicacion TEXT,
     fuente TEXT,
     FOREIGN KEY (id_farmaco1) REFERENCES medicamentos (id),
     FOREIGN KEY (id_farmaco2 REFERENCES medicamentos (id)
@@ -51,9 +51,9 @@ def consultar_interaccion(id1, id2):
     SELECT nivel_riesgo, mecanismo_implicacion, fuente
     FROM interacciones
     WHERE (id_farmaco1 = ? AND id_farmaco2 = ?)
-        OR (id_farmaco1 = ? AND id_farmaco2 ?)
+        OR (id_farmaco1 = ? AND id_farmaco2 = ?)
         """
-    cursor.execute(query, id1, id2, id2, id1))
+    cursor.execute(query, (id1, id2, id2, id1))
     resultado = cursor.fetchone()
     conexion.close()
     return resultado
