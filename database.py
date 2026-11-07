@@ -12,7 +12,6 @@ def inicializar_biblioteca():
     conexion = conectar()
     cursor = conexion.cursor()
     
-    # Crear tablas si no existen
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS medicamentos (
             id INTEGER PRIMARY KEY,
@@ -34,8 +33,7 @@ def inicializar_biblioteca():
             fuente TEXT
         )
     """)
-    
-    # Cargar automáticamente desde el archivo JSON de la biblioteca
+  
     if os.path.exists(JSON_FILE):
         with open(JSON_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
