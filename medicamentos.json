@@ -199,6 +199,61 @@
       "nivel_riesgo": "Leve",
       "mecanismo": "Los antiácidos a base de aluminio y magnesio pueden alterar ligeramente la velocidad de absorción oral de algunos antihistamínicos, sin relevancia clínica mayor.",
       "fuente": "Vademecum"
+   },
+    {
+      "id_farmaco1": 13,
+      "id_farmaco2": 12,
+      "nivel_riesgo": "Leve",
+      "mecanismo": "Los antiácidos y la simeticona suelen combinarse frecuentemente para gases y acidez; no generan interacciones adversas significativas.",
+      "fuente": "Drugs.com"
+    },
+    {
+      "id_farmaco1": 5,
+      "id_farmaco2": 6,
+      "nivel_riesgo": "Alto",
+      "mecanismo": "Uso concurrente de múltiples AINEs sistémicos y/o tópicos de alta absorción, lo que multiplica exponencialmente el riesgo de nefrotoxicidad y hemorragia digestiva.",
+      "fuente": "Vademecum / Drugs.com"
+    },
+    {
+      "id_farmaco1": 2,
+      "id_farmaco2": 1,
+      "nivel_riesgo": "Moderado",
+      "mecanismo": "El uso combinado de paracetamol e ibuprofeno a dosis altas o prolongadas puede incrementar el esfuerzo metabólico hepático y renal, requiriendo monitoreo de la dosis diaria máxima.",
+      "fuente": "Drugs.com"
+    },
+    {
+      "id_farmaco1": 2,
+      "id_farmaco2": 3,
+      "nivel_riesgo": "Moderado",
+      "mecanismo": "Aunque suelen tolerarse, la administración crónica y conjunta de paracetamol y aspirina puede elevar el riesgo acumulativo de daño renal (nefropatía analgésica).",
+      "fuente": "DailyMed"
+    },
+    {
+      "id_farmaco1": 6,
+      "id_farmaco2": 3,
+      "nivel_riesgo": "Alto",
+      "mecanismo": "Asociar diclofenaco con ácido acetilsalicílico incrementa de forma sinérgica la irritación de la mucosa gástrica y el riesgo de sangrado gastrointestinal.",
+      "fuente": "PLM"
+    },
+    {
+      "id_farmaco1": 12,
+      "id_farmaco2": 4,
+      "nivel_riesgo": "Leve",
+      "mecanismo": "Los antiácidos pueden alterar la biodisponibilidad inicial del omeprazol si se toman exactamente al mismo minuto, aunque no anulan su efecto terapéutico general.",
+      "fuente": "Vademecum"
+    },
+    {
+      "id_farmaco1": 15,
+      "id_farmaco2": 16,
+      "nivel_riesgo": "Moderado",
+      "mecanismo": "Combinar un antidiarreico de acción lenta (loperamida) con un laxante estimulante (bisacodilo) es farmacológicamente contradictorio y puede generar un estrés cólico intestinal severo.",
+      "fuente": "Drugs.com"
+    },
+    {
+      "id_farmaco1": 7,
+      "id_farmaco2": 10,
+      "nivel_riesgo": "Leve",
+      "mecanismo": "Uso conjunto habitual en cuadros gripales (antitusígeno + antihistamínico). Puede acentuar la somnolencia en personas sensibles, sin contraindicación clínica mayor.",
+      "fuente": "DailyMed"
     }
   ]
-}
