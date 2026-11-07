@@ -134,15 +134,71 @@
       "id_farmaco1": 1,
       "id_farmaco2": 3,
       "nivel_riesgo": "Alto",
-      "mecanismo": "El uso simultáneo disminuye el efecto cardioprotector de la aspirina y eleva drásticamente el riesgo de úlceras.",
+      "mecanismo": "El uso simultáneo de Ibuprofeno y Ácido Acetilsalicílico disminuye el efecto cardioprotector de la aspirina y eleva drásticamente el riesgo de úlceras y sangrado gastrointestinal.",
       "fuente": "Drugs.com / DailyMed"
     },
     {
       "id_farmaco1": 1,
       "id_farmaco2": 5,
       "nivel_riesgo": "Alto",
-      "mecanismo": "Combinar dos AINEs multiplica de forma severa el riesgo de úlceras gástricas, sangrado y daño renal.",
-      "fuente": "Vademecum / Drugs.com"
+      "mecanismo": "Combinar dos medicamentos de la familia AINEs (Ibuprofeno + Naproxeno) multiplica severamente el riesgo de toxicidad renal y úlceras hemorrágicas gástricas.",
+      "fuente": "Vademecum"
+    },
+    {
+      "id_farmaco1": 1,
+      "id_farmaco2": 6,
+      "nivel_riesgo": "Alto",
+      "mecanismo": "Suma de efectos adversos gastrointestinales y renales característicos de la administración conjunta de múltiples AINEs.",
+      "fuente": "PLM / Drugs.com"
+    },
+    {
+      "id_farmaco1": 3,
+      "id_farmaco2": 5,
+      "nivel_riesgo": "Alto",
+      "mecanismo": "Potenciación del riesgo ulcerogénico y hemorrágico al asociar ácido acetilsalicílico con otro AINE como el naproxeno.",
+      "fuente": "Vademecum"
+    },
+    {
+      "id_farmaco1": 3,
+      "id_farmaco2": 14,
+      "nivel_riesgo": "Moderado",
+      "mecanismo": "El subsalicilato de bismuto contiene sales de salicilato; combinarlo con aspirina puede incrementar el riesgo de toxicidad por salicilatos si se usan en dosis altas.",
+      "fuente": "DailyMed"
+    },
+    {
+      "id_farmaco1": 1,
+      "id_farmaco2": 4,
+      "nivel_riesgo": "Moderado",
+      "mecanismo": "Los AINEs pueden irritar la mucosa gástrica; aunque el omeprazol protege, el uso crónico conjunto requiere vigilancia médica por posibles alteraciones metabólicas.",
+      "fuente": "Vademecum"
+    },
+    {
+      "id_farmaco1": 8,
+      "id_farmaco2": 11,
+      "nivel_riesgo": "Moderado",
+      "mecanismo": "La combinación de descongestionantes sistémicos (fenilefrina) con antihistamínicos sedantes clásicos (clorfenamina) puede potenciar efectos sobre la presión arterial o causar somnolencia excesiva.",
+      "fuente": "Drugs.com"
+    },
+    {
+      "id_farmaco1": 2,
+      "id_farmaco2": 4,
+      "nivel_riesgo": "Leve",
+      "mecanismo": "A dosis terapéuticas habituales no presentan interacciones clínicas severas; el paracetamol se metaboliza de forma independiente sin alterar significativamente la bomba de protones.",
+      "fuente": "PLM / Vademecum"
+    },
+    {
+      "id_farmaco1": 9,
+      "id_farmaco2": 7,
+      "nivel_riesgo": "Leve",
+      "mecanismo": "Combinación frecuente en jarabes para la tos (expectorante + antitusígeno). No presenta riesgos mayores, aunque farmacológicamente combaten propósitos opuestos (expulsar vs. suprimir la tos).",
+      "fuente": "DailyMed"
+    },
+    {
+      "id_farmaco1": 10,
+      "id_farmaco2": 12,
+      "nivel_riesgo": "Leve",
+      "mecanismo": "Los antiácidos a base de aluminio y magnesio pueden alterar ligeramente la velocidad de absorción oral de algunos antihistamínicos, sin relevancia clínica mayor.",
+      "fuente": "Vademecum"
     }
   ]
 }
