@@ -1,18 +1,21 @@
 import sqlite3
+import json
 import os
 
 DB_NAME = "catalogo.db"
+JSON_FILE = "medicamentos.json"
 
 def conectar():
     return sqlite3.connect(DB_NAME)
 
-def crear_tabla():
+def inicializar_biblioteca():
     conexion = conectar()
     cursor = conexion.cursor()
-
+    
+    # Crear tablas si no existen
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS medicamentos (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY,
             nombre_generico TEXT NOT NULL,
             nombre_comercial TEXT,
             categoria TEXT,
@@ -20,7 +23,7 @@ def crear_tabla():
             fuente_referencia TEXT
         )
     """)
-
+    
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS interacciones (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -28,12 +31,27 @@ def crear_tabla():
             id_farmaco2 INTEGER,
             nivel_riesgo TEXT,
             mecanismo_implicacion TEXT,
-            fuente TEXT,
-            FOREIGN KEY (id_farmaco1) REFERENCES medicamentos (id),
-            FOREIGN KEY (id_farmaco2) REFERENCES medicamentos (id)
+            fuente TEXT
         )
     """)
     
+    # Cargar automáticamente desde el archivo JSON de la biblioteca
+    if os.path.exists(JSON_FILE):
+        with open(JSON_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            
+            for med in data.get("medicamentos", []):
+                cursor.execute("""
+                    INSERT OR IGNORE INTO medicamentos (id, nombre_generico, nombre_comercial, categoria, descripcion, fuente_referencia)
+                    VALUES (?, ?, ?, ?, ?, ?)
+                """, (med["id"], med["nombre_generico"], med["nombre_comercial"], med["categoria"], med["descripcion"], med["fuente"]))
+                
+            for inter in data.get("interacciones", []):
+                cursor.execute("""
+                    INSERT OR IGNORE INTO interacciones (id_farmaco1, id_farmaco2, nivel_riesgo, mecanismo_implicacion, fuente)
+                    VALUES (?, ?, ?, ?, ?)
+                """, (inter["id_farmaco1"], inter["id_farmaco2"], inter["nivel_riesgo"], inter["mecanismo"], inter["fuente"]))
+                
     conexion.commit()
     conexion.close()
 
