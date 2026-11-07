@@ -28,10 +28,10 @@ st.sidebar.markdown("""
 col1, col2 = st.columns(2)
 
 with col1:
-    f1_nombre = st.selectbox("Seleccione medicamento", list(opciones.keys()), keys="med1")
+    f1_nombre = st.selectbox("Seleccione medicamento", list(opciones.keys()), key="med1")
 
 with col2:
-    f2_nombre = st.selectbox("Seleccione medicamento", list(opciones.keys()), keys="med2")
+    f2_nombre = st.selectbox("Seleccione medicamento", list(opciones.keys()), key="med2")
 
 id1 = opciones[f1_nombre]
 id2 = opciones[f2_nombre]
