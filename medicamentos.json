@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nombre_generico": "Ibuprofeno",
-      "nombre_comercial": "Advil / Motrin",
+      "nombre_comercial": "Advil / Motrin IB",
       "categoria": "Antiinflamatorio (AINE)",
       "descripcion": "Analgésico, antiinflamatorio y antipirético de venta libre.",
       "fuente": "DrugBank / DailyMed"
@@ -31,6 +31,102 @@
       "categoria": "Inhibidor de bomba de protones",
       "descripcion": "Tratamiento de acidez estomacal y gastritis.",
       "fuente": "Vademecum"
+    },
+    {
+      "id": 5,
+      "nombre_generico": "Naproxeno",
+      "nombre_comercial": "Flanax (dosis baja)",
+      "categoria": "Antiinflamatorio (AINE)",
+      "descripcion": "Alivio del dolor, cólicos e inflamación prolongada.",
+      "fuente": "Vademecum"
+    },
+    {
+      "id": 6,
+      "nombre_generico": "Diclofenaco",
+      "nombre_comercial": "Voltaren (tópico / baja dosis)",
+      "categoria": "Antiinflamatorio (AINE)",
+      "descripcion": "Alivio del dolor muscular y articular localizado.",
+      "fuente": "Medicamentos PLM"
+    },
+    {
+      "id": 7,
+      "nombre_generico": "Dextrometorfano",
+      "nombre_comercial": "Robitussin",
+      "categoria": "Antitusígeno",
+      "descripcion": "Supresor de la tos seca.",
+      "fuente": "DailyMed"
+    },
+    {
+      "id": 8,
+      "nombre_generico": "Fenilefrina",
+      "nombre_comercial": "Descongestivo nasal oral/tópico",
+      "categoria": "Descongestionante",
+      "descripcion": "Alivio de la congestión nasal.",
+      "fuente": "Drugs.com"
+    },
+    {
+      "id": 9,
+      "nombre_generico": "Guaifenesina",
+      "nombre_comercial": "Expectorante común",
+      "categoria": "Expectorante",
+      "descripcion": "Ayuda a aflojar las flemas y mocos bronquiales.",
+      "fuente": "DailyMed"
+    },
+    {
+      "id": 10,
+      "nombre_generico": "Loratadina",
+      "nombre_comercial": "Claritin",
+      "categoria": "Antihistamínico",
+      "descripcion": "Alivio de síntomas de alergias y rinitis alérgica.",
+      "fuente": "DailyMed"
+    },
+    {
+      "id": 11,
+      "nombre_generico": "Clorfenamina",
+      "nombre_comercial": "Antihistamínico clásico",
+      "categoria": "Antihistamínico",
+      "descripcion": "Control de síntomas alérgicos y resfriado común.",
+      "fuente": "PLM"
+    },
+    {
+      "id": 12,
+      "nombre_generico": "Hidróxido de aluminio / magnesio",
+      "nombre_comercial": "Antiácido común",
+      "categoria": "Antiácido",
+      "descripcion": "Neutraliza el ácido estomacal y alivia la acidez.",
+      "fuente": "Vademecum"
+    },
+    {
+      "id": 13,
+      "nombre_generico": "Simeticona",
+      "nombre_comercial": "Antiflatulento",
+      "categoria": "Carminativo",
+      "descripcion": "Alivio de gases y distensión abdominal.",
+      "fuente": "Drugs.com"
+    },
+    {
+      "id": 14,
+      "nombre_generico": "Subsalicilato de bismuto",
+      "nombre_comercial": "Pepto-Bismol",
+      "categoria": "Antidiarreico / Protector gástrico",
+      "descripcion": "Alivia el malestar estomacal, náuseas y diarrea leve.",
+      "fuente": "DailyMed"
+    },
+    {
+      "id": 15,
+      "nombre_generico": "Loperamida",
+      "nombre_comercial": "Imodium",
+      "categoria": "Antidiarreico",
+      "descripcion": "Disminuye la frecuencia de las evacuaciones en diarrea aguda.",
+      "fuente": "Drugs.com"
+    },
+    {
+      "id": 16,
+      "nombre_generico": "Bisacodilo",
+      "nombre_comercial": "Laxante estimulante",
+      "categoria": "Laxante",
+      "descripcion": "Alivio temporal del estreñimiento ocasional.",
+      "fuente": "Vademecum"
     }
   ],
   "interacciones": [
@@ -38,15 +134,15 @@
       "id_farmaco1": 1,
       "id_farmaco2": 3,
       "nivel_riesgo": "Alto",
-      "mecanismo": "El uso simultáneo disminuye el efecto cardioprotector de la aspirina y eleva drásticamente el riesgo de úlceras y sangrado gastrointestinal.",
+      "mecanismo": "El uso simultáneo disminuye el efecto cardioprotector de la aspirina y eleva drásticamente el riesgo de úlceras.",
       "fuente": "Drugs.com / DailyMed"
     },
     {
       "id_farmaco1": 1,
-      "id_farmaco2": 4,
-      "nivel_riesgo": "Moderado",
-      "mecanismo": "Puede requerir supervisión por posible irritación gástrica acumulativa.",
-      "fuente": "Vademecum"
+      "id_farmaco2": 5,
+      "nivel_riesgo": "Alto",
+      "mecanismo": "Combinar dos AINEs multiplica de forma severa el riesgo de úlceras gástricas, sangrado y daño renal.",
+      "fuente": "Vademecum / Drugs.com"
     }
   ]
 }
