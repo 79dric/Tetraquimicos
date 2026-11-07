@@ -2,14 +2,14 @@ import streamlit as st
 from database import inicializar_biblioteca, obtener_medicamentos, consultar_interaccion
 
 st.set_page_config(
-    page_title="Biblioteca de Medicamentos sin Receta e Interacciones",
+    page_title="Medicamentos sin Receta e Interacciones",
     page_icon="💊",
     layout="wide"
 )
 
 inicializar_biblioteca()
 
-st.title("💊 Biblioteca de Medicamentos sin Receta e Interacciones")
+st.title("Medicamentos sin Receta e Interacciones")
 st.write("Consulta rápida de combinaciones fármaco-fármaco basadas en referencias oficiales.")
 
 meds = obtener_medicamentos()
@@ -53,4 +53,4 @@ else:
                 else:
                     st.success("No se encontraron interacciones de riesgo registradas para esta combinación en la biblioteca.")
     else:
-        st.info("👆 Selecciona ambos medicamentos en los menús desplegables para habilitar la consulta.")
+        st.info("Selecciona ambos medicamentos para hacer la consulta.")
