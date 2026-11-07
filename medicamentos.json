@@ -1,0 +1,52 @@
+{
+  "medicamentos": [
+    {
+      "id": 1,
+      "nombre_generico": "Ibuprofeno",
+      "nombre_comercial": "Advil / Motrin",
+      "categoria": "Antiinflamatorio (AINE)",
+      "descripcion": "Analgésico, antiinflamatorio y antipirético de venta libre.",
+      "fuente": "DrugBank / DailyMed"
+    },
+    {
+      "id": 2,
+      "nombre_generico": "Paracetamol",
+      "nombre_comercial": "Tylenol / Tempra",
+      "categoria": "Analgésico / Antipirético",
+      "descripcion": "Control de dolor leve a moderado y fiebre.",
+      "fuente": "Drugs.com"
+    },
+    {
+      "id": 3,
+      "nombre_generico": "Ácido Acetilsalicílico",
+      "nombre_comercial": "Aspirina",
+      "categoria": "AINE / Antiagregante",
+      "descripcion": "Alivio sintomático del dolor, fiebre y procesos inflamatorios.",
+      "fuente": "Medicamentos PLM"
+    },
+    {
+      "id": 4,
+      "nombre_generico": "Omeprazol",
+      "nombre_comercial": "Losec",
+      "categoria": "Inhibidor de bomba de protones",
+      "descripcion": "Tratamiento de acidez estomacal y gastritis.",
+      "fuente": "Vademecum"
+    }
+  ],
+  "interacciones": [
+    {
+      "id_farmaco1": 1,
+      "id_farmaco2": 3,
+      "nivel_riesgo": "Alto",
+      "mecanismo": "El uso simultáneo disminuye el efecto cardioprotector de la aspirina y eleva drásticamente el riesgo de úlceras y sangrado gastrointestinal.",
+      "fuente": "Drugs.com / DailyMed"
+    },
+    {
+      "id_farmaco1": 1,
+      "id_farmaco2": 4,
+      "nivel_riesgo": "Moderado",
+      "mecanismo": "Puede requerir supervisión por posible irritación gástrica acumulativa.",
+      "fuente": "Vademecum"
+    }
+  ]
+}
