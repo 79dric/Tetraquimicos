@@ -104,4 +104,4 @@ def consultar_interaccion(id1, id2):
   cursor.execute(query, (id1, id2, id2, id1))
   resultado = cursor.fetchone()
   conexion.close()
-  return resultado´lere
+  return resultado
