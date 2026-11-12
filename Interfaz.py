@@ -1,8 +1,8 @@
 import streamlit as st
 from database import (
-    consultar_interaccion,
     inicializar_biblioteca,
     obtener_medicamentos,
+    consultar_interaccion,
 )
 
 st.set_page_config(
