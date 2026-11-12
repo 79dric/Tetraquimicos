@@ -64,7 +64,7 @@ def inicializar_biblioteca():
             for inter in data.get("interacciones", []):
                 cursor.execute(
                     """
-                    INSERT INTO interacciones (
+                    INSERT OR IGNORE INTO interacciones (
                         id_farmaco1, id_farmaco2, nivel_riesgo,
                         horas_separacion, mecanismo_implicacion, fuente
                     ) VALUES (?, ?, ?, ?, ?, ?)
