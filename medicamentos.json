@@ -51,7 +51,6 @@
     {"id": 49, "nombre_generico": "Loratadina", "nombre_comercial": "Claritin", "categoria": "Antihistamínico", "descripcion": "Antihistamínico; verificar indicaciones en el prospecto local.", "fuente": "Verificar ficha técnica local"},
     {"id": 50, "nombre_generico": "Prednisona", "nombre_comercial": "Deltasone", "categoria": "Corticoesteroide", "descripcion": "Medicamento de prescripción; no iniciar ni suspender sin indicación profesional.", "fuente": "Verificar ficha técnica local"},
     {"id": 51, "nombre_generico": "Etanol", "nombre_comercial": "Alcohol", "categoria": "Bebida alcohólica", "descripcion": "Bebida alcohólica; no recomendada durante el uso de ciertos fármacos", "fuente": "Vademecum"}
-    {
   ],
   "interacciones": [
     {"id_farmaco1": 40, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Aunque no hay evidencia de alteración farmacocinética, la combinación no es aconsejable por el riesgo de efectos adversos sobre el sistema nervioso central.", "fuente": "Vademecum.es"},
