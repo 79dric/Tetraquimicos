@@ -63,6 +63,5 @@
     { "id_farmaco1": 24, "id_farmaco2": 42, "nivel_riesgo": "Moderado", "mecanismo": "Las fluoroquinolonas pueden alterar los niveles plasmáticos o potenciar efectos neurotóxicos de antiepilépticos como la carbamazepina.", "fuente": "Vademecum" },
     { "id_farmaco1": 28, "id_farmaco2": 44, "nivel_riesgo": "Moderado", "mecanismo": "Los inhibidores de la bomba de protones elevan el pH gástrico, disminuyendo significativamente la absorción oral de antifúngicos azólicos como el ketoconazol.", "fuente": "DailyMed" },
     { "id_farmaco1": 11, "id_farmaco2": 18, "nivel_riesgo": "Leve", "mecanismo": "Los betabloqueantes pueden enmascarar algunos síntomas adrenérgicos de la hipoglucemia (como taquicardia) inducida por antidiabéticos.", "fuente": "Drugs.com" }
-    }
   ]
 }
