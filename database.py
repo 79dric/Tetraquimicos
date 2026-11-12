@@ -13,7 +13,7 @@ def conectar():
 def inicializar_biblioteca():
     conexion = conectar()
     cursor = conexion.cursor()
-
+    
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS medicamentos (
             id INTEGER PRIMARY KEY,
@@ -24,7 +24,7 @@ def inicializar_biblioteca():
             fuente_referencia TEXT
         )
     """)
-
+    
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS interacciones (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -80,13 +80,12 @@ def inicializar_biblioteca():
 
     conexion.commit()
     conexion.close()
-
-
-def obtener_medicamentos():
-    conexion = conectar()
-    cursor = conexion.cursor()
-    cursor.execute(
-        "SELECT id, nombre_generico, nombre_comercial, categoria FROM medicamentos ORDER BY nombre_generico"
+    
+    def obtener_medicamentos():
+        conexion = conectar()
+        cursor = conexion.cursor()
+        cursor.execute(
+            "SELECT id, nombre_generico, nombre_comercial, categoria FROM medicamentos ORDER BY nombre_generico"
     )
     datos = cursor.fetchall()
     conexion.close()
