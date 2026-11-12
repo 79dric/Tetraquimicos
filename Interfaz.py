@@ -1,5 +1,7 @@
 import streamlit as st
-from database import inicializar_biblioteca, obtener_medicamentos, consultar_interaccion
+from database import inicializar_biblioteca
+from database import obtener_medicamentos
+from database import consultar_interaccion
 
 st.set_page_config(page_title="Medicamentos sin Receta e Interacciones", page_icon="💊", layout="wide")
 
