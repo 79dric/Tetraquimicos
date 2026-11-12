@@ -15,8 +15,7 @@ inicializar_biblioteca()
 
 st.title("Medicamentos sin Receta e Interacciones")
 st.write(
-    "Consulta rápida de combinaciones fármaco-fármaco basadas en referencias"
-    " oficiales."
+    "Consulta rápida de combinaciones fármaco-fármaco basadas en referencias oficiales."
 )
 
 meds = obtener_medicamentos()
