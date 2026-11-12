@@ -49,11 +49,10 @@
     {"id": 47, "nombre_generico": "Metoclopramida", "nombre_comercial": "Primperan", "categoria": "Antiemético / procinético", "descripcion": "Medicamento de prescripción en muchos lugares; consultar ficha local.", "fuente": "Verificar ficha técnica local"},
     {"id": 48, "nombre_generico": "Levotiroxina", "nombre_comercial": "Eutirox", "categoria": "Hormona tiroidea", "descripcion": "Terapia hormonal que requiere seguimiento profesional.", "fuente": "Verificar ficha técnica local"},
     {"id": 49, "nombre_generico": "Loratadina", "nombre_comercial": "Claritin", "categoria": "Antihistamínico", "descripcion": "Antihistamínico; verificar indicaciones en el prospecto local.", "fuente": "Verificar ficha técnica local"},
-    {"id": 50, "nombre_generico": "Prednisona", "nombre_comercial": "Deltasone", "categoria": "Corticoesteroide", "descripcion": "Medicamento de prescripción; no iniciar ni suspender sin indicación profesional.", "fuente": "Verificar ficha técnica local"}
+    {"id": 50, "nombre_generico": "Prednisona", "nombre_comercial": "Deltasone", "categoria": "Corticoesteroide", "descripcion": "Medicamento de prescripción; no iniciar ni suspender sin indicación profesional.", "fuente": "Verificar ficha técnica local"},
     {"id": 51, "nombre_generico": "Etanol", "nombre_comercial": "Alcohol", "categoria": "Bebida alcohólica", "descripcion": "Bebida alcohólica; no recomendada durante el uso de ciertos fármacos", "fuente": "de ortiz"}
   ],
   "interacciones": [
-    {"id_farmaco1": 1, "id_farmaco2": 1, 
     {"id_farmaco1": 2, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "El ibuprofeno puede aumentar el riesgo de hemorragia con la aspirina y otros AINE; la relevancia depende de dosis, formulación y seguimiento clínico.", "fuente": "hola"},
     {"id_farmaco1": 32, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "La combinación de warfarina y aspirina aumenta el riesgo hemorrágico. Requiere valoración y seguimiento profesional.", "fuente": "Verificar ficha técnica oficial local de warfarina y ácido acetilsalicílico"},
     {"id_farmaco1": 32, "id_farmaco2": 2, "nivel_riesgo": "Alto", "mecanismo": "Warfarina + ibuprofeno puede aumentar el riesgo de sangrado gastrointestinal y otros episodios hemorrágicos.", "fuente": "Verificar ficha técnica oficial local de warfarina e ibuprofeno"},
