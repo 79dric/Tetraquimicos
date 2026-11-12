@@ -1,260 +1,82 @@
 {
   "medicamentos": [
-    {
-      "id": 1,
-      "nombre_generico": "Ibuprofeno",
-      "nombre_comercial": "Advil / Motrin IB",
-      "categoria": "Antiinflamatorio (AINE)",
-      "descripcion": "Analgésico, antiinflamatorio y antipirético de venta libre.",
-      "fuente": "DrugBank / DailyMed"
-    },
-    {
-      "id": 2,
-      "nombre_generico": "Paracetamol",
-      "nombre_comercial": "Tylenol / Tempra",
-      "categoria": "Analgésico / Antipirético",
-      "descripcion": "Control de dolor leve a moderado y fiebre.",
-      "fuente": "Drugs.com"
-    },
-    {
-      "id": 3,
-      "nombre_generico": "Ácido Acetilsalicílico",
-      "nombre_comercial": "Aspirina",
-      "categoria": "AINE / Antiagregante",
-      "descripcion": "Alivio sintomático del dolor, fiebre y procesos inflamatorios.",
-      "fuente": "Medicamentos PLM"
-    },
-    {
-      "id": 4,
-      "nombre_generico": "Omeprazol",
-      "nombre_comercial": "Losec",
-      "categoria": "Inhibidor de bomba de protones",
-      "descripcion": "Tratamiento de acidez estomacal y gastritis.",
-      "fuente": "Vademecum"
-    },
-    {
-      "id": 5,
-      "nombre_generico": "Naproxeno",
-      "nombre_comercial": "Flanax (dosis baja)",
-      "categoria": "Antiinflamatorio (AINE)",
-      "descripcion": "Alivio del dolor, cólicos e inflamación prolongada.",
-      "fuente": "Vademecum"
-    },
-    {
-      "id": 6,
-      "nombre_generico": "Diclofenaco",
-      "nombre_comercial": "Voltaren (tópico / baja dosis)",
-      "categoria": "Antiinflamatorio (AINE)",
-      "descripcion": "Alivio del dolor muscular y articular localizado.",
-      "fuente": "Medicamentos PLM"
-    },
-    {
-      "id": 7,
-      "nombre_generico": "Dextrometorfano",
-      "nombre_comercial": "Robitussin",
-      "categoria": "Antitusígeno",
-      "descripcion": "Supresor de la tos seca.",
-      "fuente": "DailyMed"
-    },
-    {
-      "id": 8,
-      "nombre_generico": "Fenilefrina",
-      "nombre_comercial": "Descongestivo nasal oral/tópico",
-      "categoria": "Descongestionante",
-      "descripcion": "Alivio de la congestión nasal.",
-      "fuente": "Drugs.com"
-    },
-    {
-      "id": 9,
-      "nombre_generico": "Guaifenesina",
-      "nombre_comercial": "Expectorante común",
-      "categoria": "Expectorante",
-      "descripcion": "Ayuda a aflojar las flemas y mocos bronquiales.",
-      "fuente": "DailyMed"
-    },
-    {
-      "id": 10,
-      "nombre_generico": "Loratadina",
-      "nombre_comercial": "Claritin",
-      "categoria": "Antihistamínico",
-      "descripcion": "Alivio de síntomas de alergias y rinitis alérgica.",
-      "fuente": "DailyMed"
-    },
-    {
-      "id": 11,
-      "nombre_generico": "Clorfenamina",
-      "nombre_comercial": "Antihistamínico clásico",
-      "categoria": "Antihistamínico",
-      "descripcion": "Control de síntomas alérgicos y resfriado común.",
-      "fuente": "PLM"
-    },
-    {
-      "id": 12,
-      "nombre_generico": "Hidróxido de aluminio / magnesio",
-      "nombre_comercial": "Antiácido común",
-      "categoria": "Antiácido",
-      "descripcion": "Neutraliza el ácido estomacal y alivia la acidez.",
-      "fuente": "Vademecum"
-    },
-    {
-      "id": 13,
-      "nombre_generico": "Simeticona",
-      "nombre_comercial": "Antiflatulento",
-      "categoria": "Carminativo",
-      "descripcion": "Alivio de gases y distensión abdominal.",
-      "fuente": "Drugs.com"
-    },
-    {
-      "id": 14,
-      "nombre_generico": "Subsalicilato de bismuto",
-      "nombre_comercial": "Pepto-Bismol",
-      "categoria": "Antidiarreico / Protector gástrico",
-      "descripcion": "Alivia el malestar estomacal, náuseas y diarrea leve.",
-      "fuente": "DailyMed"
-    },
-    {
-      "id": 15,
-      "nombre_generico": "Loperamida",
-      "nombre_comercial": "Imodium",
-      "categoria": "Antidiarreico",
-      "descripcion": "Disminuye la frecuencia de las evacuaciones en diarrea aguda.",
-      "fuente": "Drugs.com"
-    },
-    {
-      "id": 16,
-      "nombre_generico": "Bisacodilo",
-      "nombre_comercial": "Laxante estimulante",
-      "categoria": "Laxante",
-      "descripcion": "Alivio temporal del estreñimiento ocasional.",
-      "fuente": "Vademecum"
-    }
+    { "id": 1, "nombre_generico": "Paracetamol (Acetaminofén)", "nombre_comercial": "Tylenol / Tempra", "categoria": "Analgésico / Antipirético", "descripcion": "Control de dolor leve a moderado y fiebre.", "fuente": "Drugs.com" },
+    { "id": 2, "nombre_generico": "Ibuprofeno", "nombre_comercial": "Advil / Motrin", "categoria": "Antiinflamatorio (AINE)", "descripcion": "Analgésico, antiinflamatorio y antipirético.", "fuente": "DrugBank" },
+    { "id": 3, "nombre_generico": "Naproxeno", "nombre_comercial": "Flanax / Naprosyn", "categoria": "Antiinflamatorio (AINE)", "descripcion": "Alivio del dolor, cólicos e inflamación prolongada.", "fuente": "Vademecum" },
+    { "id": 4, "nombre_generico": "Ketorolaco", "nombre_comercial": "Sodadol / Dolac", "categoria": "Antiinflamatorio (AINE)", "descripcion": "Manejo a corto plazo del dolor agudo moderado a severo.", "fuente": "PLM" },
+    { "id": 5, "nombre_generico": "Celecoxib", "nombre_comercial": "Celebrex", "categoria": "Inhibidor COX-2 (AINE)", "descripcion": "Antiinflamatorio con menor incidencia de úlceras gástricas.", "fuente": "DailyMed" },
+    { "id": 6, "nombre_generico": "Tramadol", "nombre_comercial": "Tramal / Tradol", "categoria": "Analgésico Opioide débil", "descripcion": "Dolor moderado a severo de tipo agudo o crónico.", "fuente": "Drugs.com" },
+    { "id": 7, "nombre_generico": "Enalapril", "nombre_comercial": "Renitec", "categoria": "IECA (Antihipertensivo)", "descripcion": "Tratamiento de hipertensión arterial e insuficiencia cardíaca.", "fuente": "Vademecum" },
+    { "id": 8, "nombre_generico": "Losartán", "nombre_comercial": "Cozaar", "categoria": "ARA II (Antihipertensivo)", "descripcion": "Control de la presión arterial y protección renal.", "fuente": "DailyMed" },
+    { "id": 9, "nombre_generico": "Telmisartán", "nombre_comercial": "Micardis", "categoria": "ARA II (Antihipertensivo)", "descripcion": "Bloqueador de los receptores de angiotensina II.", "fuente": "PLM" },
+    { "id": 10, "nombre_generico": "Amlodipino", "nombre_comercial": "Norvasc", "categoria": "Antagonista del Calcio", "descripcion": "Vasodilatador para hipertensión y angina de pecho.", "fuente": "Drugs.com" },
+    { "id": 11, "nombre_generico": "Metoprolol", "nombre_comercial": "Lopressor / Kenaprol", "categoria": "Betabloqueante", "descripcion": "Control de frecuencia cardíaca, hipertensión y arritmias.", "fuente": "DrugBank" },
+    { "id": 12, "nombre_generico": "Propranolol", "nombre_comercial": "Inderal", "categoria": "Betabloqueante no selectivo", "descripcion": "Hipertensión, ansiedad somática y migraña.", "fuente": "Vademecum" },
+    { "id": 13, "nombre_generico": "Hidroclorotiazida", "nombre_comercial": "Esidrex", "categoria": "Diurético tiazídico", "descripcion": "Eliminación de líquidos y control de presión arterial.", "fuente": "PLM" },
+    { "id": 14, "nombre_generico": "Furosemida", "nombre_comercial": "Lasix", "categoria": "Diurético de asa", "descripcion": "Edema severo e insuficiencia cardíaca congestiva.", "fuente": "DailyMed" },
+    { "id": 15, "nombre_generico": "Atorvastatina", "nombre_comercial": "Lipitor", "categoria": "Estatina (Hipolipemiante)", "descripcion": "Reducción de colesterol total y triglicéridos.", "fuente": "Drugs.com" },
+    { "id": 16, "nombre_generico": "Pravastatina", "nombre_comercial": "Pravachol", "categoria": "Estatina (Hipolipemiante)", "descripcion": "Control de dislipidemias y prevención cardiovascular.", "fuente": "Vademecum" },
+    { "id": 17, "nombre_generico": "Espironolactona", "nombre_comercial": "Aldactone", "categoria": "Diurético ahorrador de potasio", "descripcion": "Tratamiento de ascitis, edema e insuficiencia cardíaca.", "fuente": "DrugBank" },
+    { "id": 18, "nombre_generico": "Metformina", "nombre_comercial": "Glucophage", "categoria": "Biguanida (Antidiabético)", "descripcion": "Control glucémico en diabetes mellitus tipo 2.", "fuente": "DailyMed" },
+    { "id": 19, "nombre_generico": "Glibenclamida", "nombre_comercial": "Daonil", "categoria": "Sulfonilurea (Antidiabético)", "descripcion": "Estimulación de secreción pancreática de insulina.", "fuente": "PLM" },
+    { "id": 20, "nombre_generico": "Empagliflozina", "nombre_comercial": "Jardiance", "categoria": "Inhibidor SGLT2", "descripcion": "Excreción renal de glucosa para diabetes tipo 2.", "fuente": "Drugs.com" },
+    { "id": 21, "nombre_generico": "Sitagliptina", "nombre_comercial": "Januvia", "categoria": "Inhibidor DPP-4", "descripcion": "Aumento de incretinas para control de glucosa.", "fuente": "Vademecum" },
+    { "id": 22, "nombre_generico": "Amoxicilina", "nombre_comercial": "Amoxil", "categoria": "Antibiótico Betalactámico", "descripcion": "Infecciones bacterianas de vías respiratorias y oídos.", "fuente": "DailyMed" },
+    { "id": 23, "nombre_generico": "Amoxicilina con Ácido Clavulánico", "nombre_comercial": "Clavulin / Augmentin", "categoria": "Antibiótico + Inhibidor betalactamasa", "descripcion": "Infecciones resistentes a amoxicilina sola.", "fuente": "Drugs.com" },
+    { "id": 24, "nombre_generico": "Ciprofloxacino", "nombre_comercial": "Cipro", "categoria": "Antibiótico Quinolona", "descripcion": "Infecciones urinarias y gastrointestinales complejas.", "fuente": "PLM" },
+    { "id": 25, "nombre_generico": "Azitromicina", "nombre_comercial": "Zitromax", "categoria": "Antibiótico Macrólido", "descripcion": "Infecciones respiratorias y de transmisión sexual.", "fuente": "DrugBank" },
+    { "id": 26, "nombre_generico": "Doxiciclina", "nombre_comercial": "Vibramicina", "categoria": "Antibiótico Tetraciclina", "descripcion": "Acné severo, infecciones respiratorias y rickettsias.", "fuente": "Vademecum" },
+    { "id": 27, "nombre_generico": "Metronidazol", "nombre_comercial": "Flagyl", "categoria": "Antibiótico / Antiparasitario", "descripcion": "Infecciones por anaerobios y parásitos intestinales.", "fuente": "DailyMed" },
+    { "id": 28, "nombre_generico": "Ketoconazol", "nombre_comercial": "Nizoral", "categoria": "Antifúngico oral/tópico", "descripcion": "Tratamiento de micosis sistémicas y cutáneas.", "fuente": "PLM" },
+    { "id": 29, "nombre_generico": "Itraconazol", "nombre_comercial": "Sporanox", "categoria": "Antifúngico triazólico", "descripcion": "Infecciones fúngicas profundas y superficiales.", "fuente": "Drugs.com" },
+    { "id": 30, "nombre_generico": "Fluconazol", "nombre_comercial": "Diflucan", "categoria": "Antifúngico triazólico", "descripcion": "Candidiasis y micosis sistémicas.", "fuente": "DrugBank" },
+    { "id": 31, "nombre_generico": "Ácido Acetilsalicílico (Aspirina)", "nombre_comercial": "Aspirina Protect", "categoria": "Antiagregante / AINE", "descripcion": "Cardioprotección y analgesia leve.", "fuente": "DailyMed" },
+    { "id": 32, "nombre_generico": "Warfarina", "nombre_comercial": "Coumadin", "categoria": "Anticoagulante oral", "descripcion": "Prevención de trombosis y embolias.", "fuente": "Vademecum" },
+    { "id": 33, "nombre_generico": "Acenocumarol", "nombre_comercial": "Sintrom", "categoria": "Anticoagulante oral", "descripcion": "Control de la coagulación sanguínea a largo plazo.", "fuente": "PLM" },
+    { "id": 34, "nombre_generico": "Clopidogrel", "nombre_comercial": "Plavix", "categoria": "Antiagregante plaquetario", "descripcion": "Prevención de eventos aterotrombóticos.", "fuente": "Drugs.com" },
+    { "id": 35, "nombre_generico": "Rivaroxabán", "nombre_comercial": "Xarelto", "categoria": "Anticoagulante oral directo", "descripcion": "Prevención de EVAs y trombosis venosa profunda.", "fuente": "DailyMed" },
+    { "id": 36, "nombre_generico": "Clonazepam", "nombre_comercial": "Rivotril", "categoria": "Benzodiacepina", "descripcion": "Trastornos de ansiedad y control anticonvulsivo.", "fuente": "DrugBank" },
+    { "id": 37, "nombre_generico": "Alprazolam", "nombre_comercial": "Xanax", "categoria": "Benzodiacepina", "descripcion": "Tratamiento de crisis de angustia y ansiedad.", "fuente": "Vademecum" },
+    { "id": 38, "nombre_generico": "Diazepam", "nombre_comercial": "Valium", "categoria": "Benzodiacepina", "descripcion": "Relajante muscular, ansiolítico y anticonvulsivante.", "fuente": "PLM" },
+    { "id": 39, "nombre_generico": "Sertralina", "nombre_comercial": "Zoloft", "categoria": "Antidepresivo ISRS", "descripcion": "Depresión, TOC y trastornos de pánico.", "fuente": "DailyMed" },
+    { "id": 40, "nombre_generico": "Fluoxetina", "nombre_comercial": "Prozac", "categoria": "Antidepresivo ISRS", "descripcion": "Tratamiento de depresión mayor y bulimia nerviosa.", "fuente": "Drugs.com" },
+    { "id": 41, "nombre_generico": "Escitalopram", "nombre_comercial": "Lexapro", "categoria": "Antidepresivo ISRS", "descripcion": "Trastorno depresivo y ansiedad generalizada.", "fuente": "DrugBank" },
+    { "id": 42, "nombre_generico": "Carbamazepina", "nombre_comercial": "Tegretol", "categoria": "Antiepiléptico / Estabilizador", "descripcion": "Control de crisis epilépticas y neuralgia del trigémino.", "fuente": "Vademecum" },
+    { "id": 43, "nombre_generico": "Ácido Valproico", "nombre_comercial": "Epival / Depakote", "categoria": "Anticonvulsivante / Estabilizador", "descripcion": "Epilepsia y trastorno bipolar.", "fuente": "PLM" },
+    { "id": 44, "nombre_generico": "Omeprazol", "nombre_comercial": "Losec / Prilosec", "categoria": "Inhibidor de bomba de protones", "descripcion": "Reducción de ácido gástrico y úlceras.", "fuente": "DailyMed" },
+    { "id": 45, "nombre_generico": "Esomeprazol", "nombre_comercial": "Nexium", "categoria": "Inhibidor de bomba de protones", "descripcion": "Tratamiento por reflujo gastroesofágico severo.", "fuente": "Drugs.com" },
+    { "id": 46, "nombre_generico": "Ranitidina", "nombre_comercial": "Zantac", "categoria": "Antagonista H2", "descripcion": "Disminución de secreción ácida gástrica.", "fuente": "Vademecum" },
+    { "id": 47, "nombre_generico": "Metoclopramida", "nombre_comercial": "Primperan", "categoria": "Procinético / Antiemético", "descripcion": "Alivio de náuseas, vómitos y gastroparesia.", "fuente": "PLM" },
+    { "id": 48, "nombre_generico": "Levotiroxina", "nombre_comercial": "Eutirox", "categoria": "Hormona tiroidea sintética", "descripcion": "Terapia de reemplazo en hipotiroidismo.", "fuente": "DailyMed" },
+    { "id": 49, "nombre_generico": "Loratadina", "nombre_comercial": "Claritin", "categoria": "Antihistamínico no sedante", "descripcion": "Control de rinitis alérgica y urticaria.", "fuente": "Drugs.com" },
+    { "id": 50, "nombre_generico": "Prednisona", "nombre_comercial": "Deltasone", "categoria": "Corticoesteroide sistémico", "descripcion": "Antiinflamatorio e inmunosupresor potente.", "fuente": "DrugBank" }
   ],
+     {
   "interacciones": [
     {
-      "id_farmaco1": 1,
-      "id_farmaco2": 3,
-      "nivel_riesgo": "Alto",
-      "mecanismo": "El uso simultáneo de Ibuprofeno y Ácido Acetilsalicílico disminuye el efecto cardioprotector de la aspirina y eleva drásticamente el riesgo de úlceras y sangrado gastrointestinal.",
-      "fuente": "Drugs.com / DailyMed"
-    },
-    {
-      "id_farmaco1": 1,
-      "id_farmaco2": 5,
-      "nivel_riesgo": "Alto",
-      "mecanismo": "Combinar dos medicamentos de la familia AINEs (Ibuprofeno + Naproxeno) multiplica severamente el riesgo de toxicidad renal y úlceras hemorrágicas gástricas.",
-      "fuente": "Vademecum"
-    },
-    {
-      "id_farmaco1": 1,
-      "id_farmaco2": 6,
-      "nivel_riesgo": "Alto",
-      "mecanismo": "Suma de efectos adversos gastrointestinales y renales característicos de la administración conjunta de múltiples AINEs.",
-      "fuente": "PLM / Drugs.com"
-    },
-    {
-      "id_farmaco1": 3,
-      "id_farmaco2": 5,
-      "nivel_riesgo": "Alto",
-      "mecanismo": "Potenciación del riesgo ulcerogénico y hemorrágico al asociar ácido acetilsalicílico con otro AINE como el naproxeno.",
-      "fuente": "Vademecum"
-    },
-    {
-      "id_farmaco1": 3,
-      "id_farmaco2": 14,
-      "nivel_riesgo": "Moderado",
-      "mecanismo": "El subsalicilato de bismuto contiene sales de salicilato; combinarlo con aspirina puede incrementar el riesgo de toxicidad por salicilatos si se usan en dosis altas.",
-      "fuente": "DailyMed"
-    },
-    {
-      "id_farmaco1": 1,
-      "id_farmaco2": 4,
-      "nivel_riesgo": "Moderado",
-      "mecanismo": "Los AINEs pueden irritar la mucosa gástrica; aunque el omeprazol protege, el uso crónico conjunto requiere vigilancia médica por posibles alteraciones metabólicas.",
-      "fuente": "Vademecum"
-    },
-    {
-      "id_farmaco1": 8,
-      "id_farmaco2": 11,
-      "nivel_riesgo": "Moderado",
-      "mecanismo": "La combinación de descongestionantes sistémicos (fenilefrina) con antihistamínicos sedantes clásicos (clorfenamina) puede potenciar efectos sobre la presión arterial o causar somnolencia excesiva.",
+      "id_farmaco1": 18,
+      "id_farmaco2": 20,
+      "nivel_riesgo": "Leve",
+      "horas_separacion": 2,
+      "mecanismo": "Uso complementario en diabetes tipo 2; no hay antagonismo directo, pero se aconseja espaciar las tomas por comodidad digestiva.",
       "fuente": "Drugs.com"
     },
     {
-      "id_farmaco1": 2,
-      "id_farmaco2": 4,
+      "id_farmaco1": 11,
+      "id_farmaco2": 18,
       "nivel_riesgo": "Leve",
-      "mecanismo": "A dosis terapéuticas habituales no presentan interacciones clínicas severas; el paracetamol se metaboliza de forma independiente sin alterar significativamente la bomba de protones.",
-      "fuente": "PLM / Vademecum"
-    },
-    {
-      "id_farmaco1": 9,
-      "id_farmaco2": 7,
-      "nivel_riesgo": "Leve",
-      "mecanismo": "Combinación frecuente en jarabes para la tos (expectorante + antitusígeno). No presenta riesgos mayores, aunque farmacológicamente combaten propósitos opuestos (expulsar vs. suprimir la tos).",
-      "fuente": "DailyMed"
-    },
-    {
-      "id_farmaco1": 10,
-      "id_farmaco2": 12,
-      "nivel_riesgo": "Leve",
-      "mecanismo": "Los antiácidos a base de aluminio y magnesio pueden alterar ligeramente la velocidad de absorción oral de algunos antihistamínicos, sin relevancia clínica mayor.",
-      "fuente": "Vademecum"
-   },
-    {
-      "id_farmaco1": 13,
-      "id_farmaco2": 12,
-      "nivel_riesgo": "Leve",
-      "mecanismo": "Los antiácidos y la simeticona suelen combinarse frecuentemente para gases y acidez; no generan interacciones adversas significativas.",
+      "horas_separacion": 2,
+      "mecanismo": "Los betabloqueantes pueden enmascarar síntomas de hipoglucemia. Espaciar ayuda a un mejor monitoreo clínico individual.",
       "fuente": "Drugs.com"
-    },
-    {
-      "id_farmaco1": 5,
-      "id_farmaco2": 6,
-      "nivel_riesgo": "Alto",
-      "mecanismo": "Uso concurrente de múltiples AINEs sistémicos y/o tópicos de alta absorción, lo que multiplica exponencialmente el riesgo de nefrotoxicidad y hemorragia digestiva.",
-      "fuente": "Vademecum / Drugs.com"
-    },
-    {
-      "id_farmaco1": 2,
-      "id_farmaco2": 1,
-      "nivel_riesgo": "Moderado",
-      "mecanismo": "El uso combinado de paracetamol e ibuprofeno a dosis altas o prolongadas puede incrementar el esfuerzo metabólico hepático y renal, requiriendo monitoreo de la dosis diaria máxima.",
-      "fuente": "Drugs.com"
-    },
-    {
-      "id_farmaco1": 2,
-      "id_farmaco2": 3,
-      "nivel_riesgo": "Moderado",
-      "mecanismo": "Aunque suelen tolerarse, la administración crónica y conjunta de paracetamol y aspirina puede elevar el riesgo acumulativo de daño renal (nefropatía analgésica).",
-      "fuente": "DailyMed"
-    },
-    {
-      "id_farmaco1": 6,
-      "id_farmaco2": 3,
-      "nivel_riesgo": "Alto",
-      "mecanismo": "Asociar diclofenaco con ácido acetilsalicílico incrementa de forma sinérgica la irritación de la mucosa gástrica y el riesgo de sangrado gastrointestinal.",
-      "fuente": "PLM"
-    },
-    {
-      "id_farmaco1": 12,
-      "id_farmaco2": 4,
-      "nivel_riesgo": "Leve",
-      "mecanismo": "Los antiácidos pueden alterar la biodisponibilidad inicial del omeprazol si se toman exactamente al mismo minuto, aunque no anulan su efecto terapéutico general.",
-      "fuente": "Vademecum"
-    },
-    {
-      "id_farmaco1": 15,
-      "id_farmaco2": 16,
-      "nivel_riesgo": "Moderado",
-      "mecanismo": "Combinar un antidiarreico de acción lenta (loperamida) con un laxante estimulante (bisacodilo) es farmacológicamente contradictorio y puede generar un estrés cólico intestinal severo.",
-      "fuente": "Drugs.com"
-    },
-    {
-      "id_farmaco1": 7,
-      "id_farmaco2": 10,
-      "nivel_riesgo": "Leve",
-      "mecanismo": "Uso conjunto habitual en cuadros gripales (antitusígeno + antihistamínico). Puede acentuar la somnolencia en personas sensibles, sin contraindicación clínica mayor.",
-      "fuente": "DailyMed"
-    }
+    { "id_farmaco1": 2, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "El ibuprofeno puede antagonizar el efecto antiplaquetario irreversible de la aspirina a bajas dosis, reduciendo su protección cardiovascular.", "fuente": "DailyMed" },
+    { "id_farmaco1": 2, "id_farmaco2": 3, "nivel_riesgo": "Alto", "mecanismo": "Suma de efectos tóxicos gastrointestinales y mayor predisposición a úlceras o sangrados por asociación de múltiples AINEs.", "fuente": "Vademecum" },
+    { "id_farmaco1": 32, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "Incremento exponencial del riesgo hemorrágico grave debido a la inhibición combinada de la coagulación y la agregación plaquetaria.", "fuente": "Drugs.com" },
+    { "id_farmaco1": 32, "id_farmaco2": 2, "nivel_riesgo": "Alto", "mecanismo": "Potenciación del efecto anticoagulante de la warfarina por desplazamiento de unión a proteínas o interferencia metabólica con AINEs.", "fuente": "PLM" },
+    { "id_farmaco1": 7, "id_farmaco2": 17, "nivel_riesgo": "Moderado", "mecanismo": "Riesgo elevado de hiperpotasemia (potasio sérico alto) por efecto combinado de inhibidores del SRAA y diuréticos ahorradores de potasio.", "fuente": "DailyMed" },
+    { "id_farmaco1": 18, "id_farmaco2": 20, "nivel_riesgo": "Leve", "mecanismo": "Uso complementario habitual en diabetes tipo 2 para potenciar el control glucémico mediante vías farmacológicas diferentes.", "fuente": "Drugs.com" },
+    { "id_farmaco1": 39, "id_farmaco2": 40, "nivel_riesgo": "Alto", "mecanismo": "Riesgo de síndrome serotoninérgico por la administración conjunta de múltiples inhibidores selectivos de la recaptación de serotonina (ISRS).", "fuente": "DrugBank" },
+    { "id_farmaco1": 24, "id_farmaco2": 42, "nivel_riesgo": "Moderado", "mecanismo": "Las fluoroquinolonas pueden alterar los niveles plasmáticos o potenciar efectos neurotóxicos de antiepilépticos como la carbamazepina.", "fuente": "Vademecum" },
+    { "id_farmaco1": 28, "id_farmaco2": 44, "nivel_riesgo": "Moderado", "mecanismo": "Los inhibidores de la bomba de protones elevan el pH gástrico, disminuyendo significativamente la absorción oral de antifúngicos azólicos como el ketoconazol.", "fuente": "DailyMed" },
+    { "id_farmaco1": 11, "id_farmaco2": 18, "nivel_riesgo": "Leve", "mecanismo": "Los betabloqueantes pueden enmascarar algunos síntomas adrenérgicos de la hipoglucemia (como taquicardia) inducida por antidiabéticos.", "fuente": "Drugs.com" }
   ]
 }
