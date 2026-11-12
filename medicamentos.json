@@ -54,20 +54,18 @@
      {
   "interacciones": [
     {
-      "id_farmaco1": 18,
+      {"id_farmaco1": 18,
       "id_farmaco2": 20,
       "nivel_riesgo": "Leve",
       "horas_separacion": 2,
       "mecanismo": "Uso complementario en diabetes tipo 2; no hay antagonismo directo, pero se aconseja espaciar las tomas por comodidad digestiva.",
-      "fuente": "Drugs.com"
-    },
-    {
-      "id_farmaco1": 11,
+      "fuente": "Drugs.com"}
+      {"id_farmaco1": 11,
       "id_farmaco2": 18,
       "nivel_riesgo": "Leve",
       "horas_separacion": 2,
       "mecanismo": "Los betabloqueantes pueden enmascarar síntomas de hipoglucemia. Espaciar ayuda a un mejor monitoreo clínico individual.",
-      "fuente": "Drugs.com"
+      "fuente": "Drugs.com"}
     { "id_farmaco1": 2, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "El ibuprofeno puede antagonizar el efecto antiplaquetario irreversible de la aspirina a bajas dosis, reduciendo su protección cardiovascular.", "fuente": "DailyMed" },
     { "id_farmaco1": 2, "id_farmaco2": 3, "nivel_riesgo": "Alto", "mecanismo": "Suma de efectos tóxicos gastrointestinales y mayor predisposición a úlceras o sangrados por asociación de múltiples AINEs.", "fuente": "Vademecum" },
     { "id_farmaco1": 32, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "Incremento exponencial del riesgo hemorrágico grave debido a la inhibición combinada de la coagulación y la agregación plaquetaria.", "fuente": "Drugs.com" },
