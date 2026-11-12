@@ -54,7 +54,7 @@
   ],
   "interacciones": [
     {"id_farmaco1": 1, "id_farmaco2": 1, 
-    {"id_farmaco1": 2, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "El ibuprofeno puede aumentar el riesgo de hemorragia con la aspirina y otros AINE; la relevancia depende de dosis, formulación y seguimiento clínico.", "fuente": ""},
+    {"id_farmaco1": 2, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "El ibuprofeno puede aumentar el riesgo de hemorragia con la aspirina y otros AINE; la relevancia depende de dosis, formulación y seguimiento clínico.", "fuente": "hola"},
     {"id_farmaco1": 32, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "La combinación de warfarina y aspirina aumenta el riesgo hemorrágico. Requiere valoración y seguimiento profesional.", "fuente": "Verificar ficha técnica oficial local de warfarina y ácido acetilsalicílico"},
     {"id_farmaco1": 32, "id_farmaco2": 2, "nivel_riesgo": "Alto", "mecanismo": "Warfarina + ibuprofeno puede aumentar el riesgo de sangrado gastrointestinal y otros episodios hemorrágicos.", "fuente": "Verificar ficha técnica oficial local de warfarina e ibuprofeno"},
     {"id_farmaco1": 32, "id_farmaco2": 3, "nivel_riesgo": "Alto", "mecanismo": "Warfarina + naproxeno puede incrementar el riesgo hemorrágico; requiere controles clínicos y seguimiento de coagulación.", "fuente": "Verificar ficha técnica oficial local de warfarina y naproxeno"},
