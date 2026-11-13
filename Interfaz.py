@@ -7,7 +7,7 @@ inicializar_biblioteca()
 
 st.title("Medicamentos sin Receta e Interacciones")
 st.write("Consulta rápida de combinaciones fármaco-fármaco basadas en referencias oficiales. Para usos informativos, no sustituye atención médica.")
-st.sidebar.title("Facultad de Ciencias Químicas - Universidad Autónoma de Chihuahua - Programación 3°L Tetraquímicos")
+st.sidebar.write("Facultad de Ciencias Químicas - Universidad Autónoma de Chihuahua - Programación 3°L Tetraquímicos")
 
 meds = obtener_medicamentos()
 opciones = {f"{m[1]} ({m[2]})": m[0] for m in meds}
