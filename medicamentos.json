@@ -50,7 +50,7 @@
     {"id": 48, "nombre_generico": "Levotiroxina", "nombre_comercial": "Eutirox", "categoria": "Hormona tiroidea", "fuente": "Vademecum.es"},
     {"id": 49, "nombre_generico": "Loratadina", "nombre_comercial": "Claritin", "categoria": "Antihistamínico", "fuente": "Vademecum.es"},
     {"id": 50, "nombre_generico": "Prednisona", "nombre_comercial": "Deltasone", "categoria": "Corticoesteroide", "fuente": "Vademecum.es"},
-    {"id": 51, "nombre_generico": "Etanol", "nombre_comercial": "Alcohol", "categoria": "Bebida alcohólica", "fuente": "Vademecum.es"},
+    {"id": 51, "nombre_generico": "Etanol", "nombre_comercial": "Alcohol", "categoria": "Bebida alcohólica", "fuente": "Vademecum.es"}
   ],
   "interacciones": [
     {"id_farmaco1": 1, "id_farmaco2": 51, "nivel_riesgo": "Alto", "mecanismo": "Induce enzimas hepáticas (CYP2E1) que aumentan los metabolitos tóxicos del paracetamol.", "fuente": "Vademecum.es"},
