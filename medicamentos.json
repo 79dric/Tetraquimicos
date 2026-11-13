@@ -129,6 +129,6 @@
     {"id_farmaco1": 48, "id_farmaco2": 18, "nivel_riesgo": "Moderado", "mecanismo": "La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 48, "id_farmaco2": 19, "nivel_riesgo": "Moderado", "mecanismo": "La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 48, "id_farmaco2": 21, "nivel_riesgo": "Moderado", "mecanismo": "La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 48, "id_farmaco2": 20, "nivel_riesgo": "Moderado", "mecanismo":"La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"},
+    {"id_farmaco1": 48, "id_farmaco2": 20, "nivel_riesgo": "Moderado", "mecanismo":"La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"}
   ]
 }
