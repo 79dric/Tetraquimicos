@@ -101,7 +101,7 @@
     {"id_farmaco1": 4, "id_farmaco2": 13, "nivel_riesgo": "Moderado", "mecanismo": "Reduce el flujo sanguíneo renal al inhibir prostaglandinas, provocando riesgo alto de insuficiencia renal aguda.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 4, "id_farmaco2": 14, "nivel_riesgo": "Moderado", "mecanismo": "Reduce el flujo sanguíneo renal al inhibir prostaglandinas, provocando riesgo alto de insuficiencia renal aguda.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 4, "id_farmaco2": 50, "nivel_riesgo": "Alto", "mecanismo": "Potencia severamente el riesgo de úlcera péptica y hemorragia gastrointestinal.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 5, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Aumenta el riesgo de irritación y sangrado gastrointestinal.", "fuente": "Vademecum.es"},{"id_farmaco1": , "id_farmaco2":, "nivel_riesgo": "", "mecanismo": "", "fuente": "Vademecum.es"},
+    {"id_farmaco1": 5, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Aumenta el riesgo de irritación y sangrado gastrointestinal.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 5, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "Aumenta el riesgo de eventos adversos gastrointestinales.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 5, "id_farmaco2": 32, "nivel_riesgo": "Alto", "mecanismo": "Incrementa el riesgo de episodios hemorrágicos.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 5, "id_farmaco2": 33, "nivel_riesgo": "Alto", "mecanismo": "Incrementa el riesgo de episodios hemorrágicos.", "fuente": "Vademecum.es"},
