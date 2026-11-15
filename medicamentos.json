@@ -120,7 +120,7 @@
     {"id_farmaco1": 6, "id_farmaco2": 42, "nivel_riesgo": "Moderado", "mecanismo": "La carbamazepina acelera el metabolismo de tramadol (CYP3A4), disminuyendo considerablemente su efecto analgésico.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 6, "id_farmaco2": 32, "nivel_riesgo": "Moderado", "mecanismo": "Puede potenciar el efecto anticoagulante y elevar el INR en algunos pacientes, aumentando el riesgo de sangrado.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 6, "id_farmaco2": 33, "nivel_riesgo": "Moderado", "mecanismo": "Puede potenciar el efecto anticoagulante y elevar el INR en algunos pacientes, aumentando el riesgo de sangrado.", "fuente": "Vademecum.es"},
-    {"id_farmaco1":  7, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Potencia el efecto hipotensor, provocando mareos, aturdimiento e hipotensión ortostática.", "fuente": "Vademecum.es"},
+    {"id_farmaco1": 7, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Potencia el efecto hipotensor, provocando mareos, aturdimiento e hipotensión ortostática.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 7, "id_farmaco2": 17, "nivel_riesgo": "Moderado", "mecanismo": "Aumenta significativamente el potasio sérico, con riesgo alto de hiperpotasemia grave y arritmias cardíacas.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 7, "id_farmaco2": 8, "nivel_riesgo": "Alto", "mecanismo": "Bloqueo dual del sistema renina-angiotensina; aumenta el riesgo de hipotensión, hiperpotasemia y fallo renal agudo.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 7, "id_farmaco2": 9, "nivel_riesgo": "Alto", "mecanismo": "Bloqueo dual del sistema renina-angiotensina; aumenta el riesgo de hipotensión, hiperpotasemia y fallo renal agudo.", "fuente": "Vademecum.es"},
