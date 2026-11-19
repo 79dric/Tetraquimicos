@@ -80,7 +80,7 @@
     {"id_farmaco1": 2, "id_farmaco2": 19, "nivel_riesgo": "Leve", "mecanismo": "Potenciación del efecto hipoglucémico. Se recomienda ajustar la dosis de los fármacos antidiabéticos según los niveles de glucemia.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Aumenta de forma importante el riesgo de gastritis erosiva, úlcera péptica y hemorragia digestiva.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 4, "nivel_riesgo": "Alto", "mecanismo": "Efectos adversos gastrointestinales y renales sin mejorar la analgesia.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 3, "id_farmaco2": 5, "nivel_riesgo": "Alto", "mecanismo": "Su uso conjunto aumenta el riesgo de toxicidad gastrointestinal grave.", "fuente": "Medicamentos PLM"
+    {"id_farmaco1": 3, "id_farmaco2": 5, "nivel_riesgo": "Alto", "mecanismo": "Su uso conjunto aumenta el riesgo de toxicidad gastrointestinal grave.", "fuente": "Medicamentos PLM"}
     {"id_farmaco1": 3, "id_farmaco2": 30, "nivel_riesgo": "Alto", "mecanismo": "Aumento significativo de la exposición a celecoxib. Se recomienda reducir la dosis de celecoxib a la mitad en pacientes tratados con fluconazol.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "Efectos adversos gastrointestinales y renales sin mejorar la analgesia.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 32, "nivel_riesgo": "Alto", "mecanismo": "Incrementa severamente el riesgo de hemorragias graves por efecto antiagregante y daño a la mucosa gástrica.", "fuente": "Vademecum.es"},
@@ -224,7 +224,7 @@
     {"id_farmaco1": 29, "id_farmaco2": 45, "nivel_riesgo": "Moderado", "mecanismo": "El esomeprazol reduce la acidez gástrica y disminuye significativamente la absorción de las cápsulas de itraconazol.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 29, "id_farmaco2": 46, "nivel_riesgo": "Moderado", "mecanismo": "La ranitidina reduce la acidez gástrica y disminuye la biodisponibilidad del itraconazol.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 29, "id_farmaco2": 42, "nivel_riesgo": "Alto", "mecanismo": "La carbamazepina induce el metabolismo del itraconazol provocando falla terapéutica; el itraconazol eleva los niveles tóxicos de carbamazepina.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 29, "id_farmaco2": 50, "nivel_riesgo": "Moderado", "mecanismo": "Disminuye el metabolismo hepático de los corticosteroides, potenciando sus efectos sistémicos y supresión suprarrenal.", "fuente": "Vademecum.es"}, ps es ese
+    {"id_farmaco1": 29, "id_farmaco2": 50, "nivel_riesgo": "Moderado", "mecanismo": "Disminuye el metabolismo hepático de los corticosteroides, potenciando sus efectos sistémicos y supresión suprarrenal.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 10, "id_farmaco2": 30, "nivel_riesgo": "Moderado", "mecanismo": "Aumento de la exposición sistémica al amlodipino con riesgo de hipotensión. Se requiere vigilancia clínica y posible ajuste de dosis, especialmente en ancianos.", "fuente": "Vademecum.es"},    
     {"id_farmaco1": 40, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Aunque no hay evidencia de alteración farmacocinética, la combinación no es aconsejable por el riesgo de efectos adversos sobre el sistema nervioso central.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 40, "id_farmaco2": 6, "nivel_riesgo": "Alto", "mecanismo": "Potenciación del efecto serotoninérgico con riesgo de toxicidad grave. Monitorizar signos de síndrome serotoninérgico y ajustar dosis.", "fuente": "Vademecum.es"},
@@ -274,7 +274,5 @@
     {"id_farmaco1": 48, "id_farmaco2": 19, "nivel_riesgo": "Moderado", "mecanismo": "La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 48, "id_farmaco2": 21, "nivel_riesgo": "Moderado", "mecanismo": "La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 48, "id_farmaco2": 20, "nivel_riesgo": "Moderado", "mecanismo":"La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"}
-    }
   ]
 }
-
