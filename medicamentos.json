@@ -80,7 +80,8 @@
     {"id_farmaco1": 2, "id_farmaco2": 19, "nivel_riesgo": "Leve", "mecanismo": "Potenciación del efecto hipoglucémico. Se recomienda ajustar la dosis de los fármacos antidiabéticos según los niveles de glucemia.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Aumenta de forma importante el riesgo de gastritis erosiva, úlcera péptica y hemorragia digestiva.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 4, "nivel_riesgo": "Alto", "mecanismo": "Efectos adversos gastrointestinales y renales sin mejorar la analgesia.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 3, "id_farmaco2": 5, "nivel_riesgo": "Alto", "mecanismo": "Aumento significativo de la exposición a celecoxib. Se recomienda reducir la dosis de celecoxib a la mitad en pacientes tratados con fluconazol.", "fuente": "Vademecum.es"},
+    {"id_farmaco1": 3, "id_farmaco2": 5, "nivel_riesgo": "Alto", "mecanismo": "Su uso conjunto aumenta el riesgo de toxicidad gastrointestinal grave.", "fuente": "Medicamentos PLM"
+    {"id_farmaco1": 3, "id_farmaco2": 30, "nivel_riesgo": "Alto", "mecanismo": "Aumento significativo de la exposición a celecoxib. Se recomienda reducir la dosis de celecoxib a la mitad en pacientes tratados con fluconazol.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "Efectos adversos gastrointestinales y renales sin mejorar la analgesia.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 32, "nivel_riesgo": "Alto", "mecanismo": "Incrementa severamente el riesgo de hemorragias graves por efecto antiagregante y daño a la mucosa gástrica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 3, "id_farmaco2": 33, "nivel_riesgo": "Alto", "mecanismo": "Incrementa severamente el riesgo de hemorragias graves por efecto antiagregante y daño a la mucosa gástrica.", "fuente": "Vademecum.es"},
