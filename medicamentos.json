@@ -149,7 +149,7 @@
     {"id_farmaco1": 8, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Potencia el efecto vasodilatador e hipotensor, causando mareos o síncope al ponerse de pie.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 8, "id_farmaco2": 17, "nivel_riesgo": "Moderado", "mecanismo": "Riesgo elevado de hiperpotasemia severa y deterioro de la función renal.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 8, "id_farmaco2": 30, "nivel_riesgo": "Moderado", "mecanismo": "El fluconazol inhibe CYP2C9, reduciendo la conversión de losartán disminuyendo su eficacia antihipertensiva.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 8, "id_farmaco2":  9, "nivel_riesgo": "Alto", "mecanismo": "Aumenta la incidencia de hipotensión, síncope, hiperpotasemia y alteraciones de la función renal.", "fuente": "Vademecum.es"},
+    {"id_farmaco1": 8, "id_farmaco2": 9, "nivel_riesgo": "Alto", "mecanismo": "Aumenta la incidencia de hipotensión, síncope, hiperpotasemia y alteraciones de la función renal.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 8, "id_farmaco2": 30, "nivel_riesgo": "Moderado", "mecanismo": "En dósis de Aspirina mayores a 300 mg, reducción del efecto antihipertensivo y riesgo de insuficiencia renal aguda. Monitorizar la función renal y asegurar una hidratación adecuada.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 9, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "Aumenta el riesgo de hipotensión ortostática.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 9, "id_farmaco2": 17, "nivel_riesgo": "Moderado", "mecanismo": "Favorece la retención de potasio con riesgo de hiperpotasemia potencialmente mortal.", "fuente": "Vademecum.es"},
