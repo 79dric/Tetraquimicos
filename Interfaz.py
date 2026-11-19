@@ -58,7 +58,7 @@ else:
                     st.success("No se encontraron interacciones de riesgo registradas para esta combinación en la biblioteca.")
     else:
         st.info("Selecciona ambos medicamentos para hacer la consulta.")
-        "glosario": {
+"glosario": {
     "INR (Índice Internacional Normalizado)": "Prueba de laboratorio que mide qué tan rápido coagula la sangre; se usa sobre todo para controlar anticoagulantes como la warfarina o el acenocumarol. Un INR más alto significa que la sangre tarda más en coagular y hay mayor riesgo de sangrado.",
     "tiempo de protrombina": "Tiempo que tarda el plasma sanguíneo en formar un coágulo en una prueba de laboratorio; ayuda a evaluar la actividad de ciertos factores de coagulación.",
     "factores de coagulación": "Proteínas de la sangre que actúan en cadena para detener el sangrado y formar un coágulo; varios (como II, VII, IX y X) dependen de la vitamina K para activarse.",
