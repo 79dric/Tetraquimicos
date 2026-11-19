@@ -279,8 +279,7 @@
     {"id_farmaco1": 48, "id_farmaco2": 19, "nivel_riesgo": "Moderado", "mecanismo": "La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 48, "id_farmaco2": 21, "nivel_riesgo": "Moderado", "mecanismo": "La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 48, "id_farmaco2": 20, "nivel_riesgo": "Moderado", "mecanismo":"La levotiroxina puede disminuir el efecto hipoglucemiante. Monitorizar los niveles de glucosa al inicio del tratamiento tiroideo.", "fuente": "Vademecum.es"}
-  ]
-}
+ ],
   "glosario": {
     "INR (Índice Internacional Normalizado)": "Prueba de laboratorio que mide qué tan rápido coagula la sangre; se usa sobre todo para controlar anticoagulantes como la warfarina o el acenocumarol. Un INR más alto significa que la sangre tarda más en coagular y hay mayor riesgo de sangrado.",
     "tiempo de protrombina": "Tiempo que tarda el plasma sanguíneo en formar un coágulo en una prueba de laboratorio; ayuda a evaluar la actividad de ciertos factores de coagulación.",
@@ -299,3 +298,4 @@
     "hepatotoxicidad": "Daño o lesión en las células del hígado causada por sustancias, medicamentos o alcohol.",
     "hemorragia gastrointestinal": "Sangrado en alguna parte del tubo digestivo (esófago, estómago o intestinos), que puede verse favorecido por irritación de la mucosa o alteraciones de la coagulación."
   }
+}
