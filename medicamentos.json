@@ -405,7 +405,7 @@
     {"id_farmaco1": 49, "id_farmaco2": 39, "nivel_riesgo": "Moderado", "mecanismo": "La inhibición enzimática puede elevar los niveles plasmáticos de loratadina", "fuente": "Vademecum.es"},
     {"id_farmaco1": 50, "id_farmaco2": 5, "nivel_riesgo": "Alto", "mecanismo": "Aumento del riesgo de ulceración y hemorragia gastrointestinal. Se recomienda evitar la combinación o utilizar protección gástrica si el uso es indispensable.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 50, "id_farmaco2": 31, "nivel_riesgo": "Alto", "mecanismo": "Aumento del riesgo de ulceración y hemorragia gastrointestinal. Se recomienda evitar la combinación o utilizar protección gástrica si el uso es indispensable.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 50 "id_farmaco2": 32, "nivel_riesgo": "Alto", "mecanismo": "Posible alteración del efecto anticoagulante.", "fuente": "Vademecum.es"},
+    {"id_farmaco1": 50, "id_farmaco2": 32, "nivel_riesgo": "Alto", "mecanismo": "Posible alteración del efecto anticoagulante.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 50, "id_farmaco2": 33, "nivel_riesgo": "Alto", "mecanismo": "Posible alteración del efecto anticoagulante.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 50, "id_farmaco2": 18, "nivel_riesgo": "Moderado", "mecanismo": "Reducción del efecto hipoglucemiante por antagonismo metabólico.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 50, "id_farmaco2": 19, "nivel_riesgo": "Moderado", "mecanismo": "Reducción del efecto hipoglucemiante por antagonismo metabólico.", "fuente": "Vademecum.es"},
