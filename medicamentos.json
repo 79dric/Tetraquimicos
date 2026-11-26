@@ -217,7 +217,7 @@
     {"id_farmaco1": 18, "id_farmaco2": 3, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 18, "id_farmaco2": 4, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 18, "id_farmaco2": 5, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 18, "id_farmaco2": 7, "nivel_riesgo": "Moderado", "mecanismo" "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
+    {"id_farmaco1": 18, "id_farmaco2": 7, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 18, "id_farmaco2": 8, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"}
     {"id_farmaco1": 18, "id_farmaco2": 9, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 20, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "El alcohol puede potenciar el efecto hipotensor del metoprolol y causar mareos, hipotensión ortostática o somnolencia.", "fuente": "Vademecum.es"},
@@ -410,7 +410,7 @@
     {"id_farmaco1": 50, "id_farmaco2": 18, "nivel_riesgo": "Moderado", "mecanismo": "Reducción del efecto hipoglucemiante por antagonismo metabólico.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 50, "id_farmaco2": 19, "nivel_riesgo": "Moderado", "mecanismo": "Reducción del efecto hipoglucemiante por antagonismo metabólico.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 50, "id_farmaco2": 21, "nivel_riesgo": "Moderado", "mecanismo": "Reducción del efecto hipoglucemiante por antagonismo metabólico.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 50, "id_farmaco2": 30, "nivel_riesgo": "Moderado", "mecanismo" "Aumento del riesgo de efectos adversos sistémicos por inhibición del metabolismo del corticoide.", "fuente": "Vademecum.es"}
+    {"id_farmaco1": 50, "id_farmaco2": 30, "nivel_riesgo": "Moderado", "mecanismo": "Aumento del riesgo de efectos adversos sistémicos por inhibición del metabolismo del corticoide.", "fuente": "Vademecum.es"}
   ],
   "glosario": {
     "INR (Índice Internacional Normalizado)": "Prueba de laboratorio que mide qué tan rápido coagula la sangre; se usa sobre todo para controlar anticoagulantes como la warfarina o el acenocumarol. Un INR más alto significa que la sangre tarda más en coagular y hay mayor riesgo de sangrado.",
