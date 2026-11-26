@@ -43,7 +43,7 @@
     {"id": 41, "nombre_generico": "Escitalopram", "nombre_comercial": "Lexapro", "categoria": "Antidepresivo ISRS", "fuente": "Vademecum.es"},
     {"id": 42, "nombre_generico": "Carbamazepina", "nombre_comercial": "Tegretol", "categoria": "Antiepiléptico", "fuente": "Vademecum.es"},
     {"id": 43, "nombre_generico": "Ácido valproico", "nombre_comercial": "Depakote", "categoria": "Antiepiléptico", "fuente": "Vademecum.es"},
-    {"id": 44, "nombre_generico": "Omeprazol", "nombre_comercial": "Prilosec / Losec", "categoria": "Inhibidor de bomba de protones", "fuente": "Vademecum.com"},
+    {"id": 44, "nombre_generico": "Omeprazol", "nombre_comercial": "Prilosec / Losec", "categoria": "Inhibidor de bomba de protones", "fuente": "Vademecum.es"},
     {"id": 45, "nombre_generico": "Esomeprazol", "nombre_comercial": "Nexium", "categoria": "Inhibidor de bomba de protones", "fuente": "Vademecum.es"},
     {"id": 46, "nombre_generico": "Ranitidina", "nombre_comercial": "Zantac", "categoria": "Antagonista H2", "fuente": "Vademecum.es"},
     {"id": 47, "nombre_generico": "Metoclopramida", "nombre_comercial": "Primperan", "categoria": "Antiemético / procinético", "fuente": "Vademecum.es"},
@@ -218,7 +218,7 @@
     {"id_farmaco1": 18, "id_farmaco2": 4, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 18, "id_farmaco2": 5, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 18, "id_farmaco2": 7, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
-    {"id_farmaco1": 18, "id_farmaco2": 8, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"}.
+    {"id_farmaco1": 18, "id_farmaco2": 8, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 18, "id_farmaco2": 9, "nivel_riesgo": "Moderado", "mecanismo": "Estos fármacos pueden alterar la función renal e incrementar el riesgo de acidosis láctica.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 20, "id_farmaco2": 51, "nivel_riesgo": "Moderado", "mecanismo": "El alcohol puede potenciar el efecto hipotensor del metoprolol y causar mareos, hipotensión ortostática o somnolencia.", "fuente": "Vademecum.es"},
     {"id_farmaco1": 20, "id_farmaco2": 21, "nivel_riesgo": "Alto", "mecanismo": "Duplicidad terapéutica de betabloqueadores; riesgo elevado de bradicardia grave, bloqueo auriculoventricular e hipotensión.", "fuente": "Vademecum.es"},
